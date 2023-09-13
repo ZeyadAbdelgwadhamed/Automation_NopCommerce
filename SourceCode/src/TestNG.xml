@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1" >
+   <parameter name="Browser" value="Edge"></parameter>
+    <test name="Regression1">
+        <classes>
+            <class name="Tests.RegistrationTestPage"/>
+            <class name="Tests.AccountPageTest"/>
+            <class name="Tests.ChangeCurrencyTest"/>
+            <class name="Tests.SearchProductTest"/>
+            <class name="Tests.ContactUsTest"/>
+            <class name="Tests.ReviewProductTest"/>
+            <class name="Tests.SearchAutomaticProductTest"/>
+            <class name="Tests.SendProductByEmailFriendTest"/>
+            <class name="Tests.AddToCartTest"/>
+        </classes>
+    </test>
+</suite>
